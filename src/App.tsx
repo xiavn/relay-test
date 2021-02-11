@@ -8,7 +8,7 @@ function App() {
         let isMounted = true;
         fetchGraphQL(`
 		query RespositoryNameQuery {
-			respository(owner: "xiavn" name: "relay-test") {
+			repository(owner: "xiavn" name: "relay-test") {
 				name
 			}
 		}
