@@ -26,7 +26,7 @@ function App() {
         return () => {
             isMounted = false;
         };
-    }, [fetchGraphQL]);
+    });
     return (
         <div className="App">
             <header className="App-header">
